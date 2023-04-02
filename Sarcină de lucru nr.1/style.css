@@ -1,0 +1,126 @@
+/* Main page styles */
+
+body#main-page{
+    background-color: rgb(137, 189, 212);
+    border: 2px solid black;
+    border-radius: 1em;
+    box-shadow: 10px 5px 5px black;
+    margin: 4em;
+    padding: 2em;
+}
+
+body#main-page header.page-header{
+    text-align: center;
+}
+
+body#main-page img{
+    width: 100%;
+}
+
+body#main-page .uppercase{
+    text-transform: uppercase;
+}
+
+body#main-page main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2em;
+}
+
+/* Father page styles */
+
+body#father-page{
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 1em;
+    box-shadow: 10px 5px 5px black;
+    margin: 4em;
+    padding: 2em;
+}
+
+body#father-page header.page-header{
+    text-align: center;
+}
+
+body#father-page main{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    gap: 2em;
+    background-color: white;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+body#father-page main .content{
+    font-size: 23px;
+}
+
+body#father-page img{
+    width: 100%;
+}
+
+
+/* Mother page styles */
+
+body#mother-page{
+    background-color: violet;
+    border: 2px solid black;
+    border-radius: 1em;
+    box-shadow: 10px 5px 5px black;
+    margin: 4em;
+    padding: 2em;
+}
+
+body#mother-page header.page-header{
+    text-align: center;
+}
+
+body#mother-page main{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    gap: 2em;
+    background-color: white;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+body#mother-page main .content{
+    font-size: 23px;
+}
+
+body#mother-page img{
+    width: 100%;
+}
+
+
+/* Myself page styles */
+
+body#myself-page{
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 1em;
+    box-shadow: 10px 5px 5px black;
+    margin: 4em;
+    padding: 2em;
+}
+
+body#myself-page header.page-header{
+    text-align: center;
+}
+
+body#myself-page main{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    gap: 2em;
+    background-color: white;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+body#myself-page main .content{
+    font-size: 23px;
+}
+
+body#myself-page img{
+    width: 100%;
+}
